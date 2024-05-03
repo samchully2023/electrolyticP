@@ -1,0 +1,53 @@
+*{
+box-sizing: border-box;
+background-color: #a9e2ff;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{color: darkblue;}
+a:hover{color: royalblue;}
+a:visited{color: grey;}
+a:active{color: red;}
+
+
+.item-box
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+.item-box img{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+.item-box div{
+    border: 1px solid gray;
+
+}
+
+.text{
+    height: 75px;
+    width: 300px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
